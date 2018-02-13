@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("assets/green_cup/green_cup.png");
+    background-repeat: repeat;
+    font-size: 18px;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+#li3 {
+    margin-right: 250px;
+}
+
+.pageLinks {
+    padding: 15px;
+}
+
+.heading {
+    height: 80px;
+}
+
+.about-header, .portfolio-header, .contact-header {
+    padding: 30px;
+}
+
+#nameLogo {
+    height: 80px;
+    padding: 30px;
+    margin-left: 265px;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 280px;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 0;
+}
+
+.content {
+    padding: 0 40px 20px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 50px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 22px;
+}
+
+.social-link {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.panel-heading {
+    text-align: center;
+}
+
+
+/* Footer */
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+.form-box {
+    padding-bottom: 40px;
+}
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    background: #666;
+    padding: 40px 0;
+    clear: both;
+    border-top: 8px solid #4aaaa5;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+.container-footer {
+    position: relative;
+    bottom: 12px;
+}
+
+.text-muted {
+    color: #ccc;
+  }
